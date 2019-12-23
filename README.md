@@ -18,8 +18,8 @@ npm install
 # Comando para compilar la aplicación, despues de haber hecho alguna mejora o ajuste al desarrollo (este comando genera el codigo que se necesita ejecutar ubicado en la carpeta /dist)
 npm run build
 
-# Compilar cambios
-tcs
+# Comando para solo compilar cambios
+tsc
 
 # Instalar complemento para que se actualicen automaticamente los cambios
 npm install nodemon -g
