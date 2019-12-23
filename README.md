@@ -1,39 +1,36 @@
-# sispostal
+# SISPOSTAL
 
-## funcionalidades
-- Conexion a base de datos postgres
-- funciones para hacer consultas a las bases de datos
-- Manejo de Log
-- Consumo del web service
-- Creacion de web service Rest
 
-## prerequisitos
-- Tener instalado nodejs:         Servidor de la aplicacion
-- Que el servidor tenga permisos para ver la base de datos
+# Funcionalidades
+- Conexión a base de datos PostgreSQL.
+- Funciones para hacer consultas a las bases de datos.
+- Manejo de Log.
+- Consumo del web service.
+- Creación de web service Rest.
 
-## Comando para instalar las despendencias del proyecto
+# Prerrequisitos
+- Tener instalado NodeJS: Servidor de la aplicacion.
+- Que el servidor tenga permisos para ver la base de datos.
+
+# Comando para instalar las dependencias del proyecto
 npm install
 
-## Comando para compilar la aplicacion, despues de haber hecho alguna mejora o ajuste al desarrollo
-## Este comando genera el codigo que se necesita ejecutar ubicado en la carpeta /dist
-$ npm run build
+# Comando para compilar la aplicación, despues de haber hecho alguna mejora o ajuste al desarrollo (este comando genera el codigo que se necesita ejecutar ubicado en la carpeta /dist)
+npm run build
 
-##compilar cambios
+# Compilar cambios
 tcs
 
-## instalar complemento para que se actualice automaticamente los cambios.
+# Instalar complemento para que se actualicen automaticamente los cambios
 npm install nodemon -g
 
-## Para correr la aplicacion
-$ node dist/index
-
-## Para correr la aplicacion
-$ nodemon dist/index
-
+# Comando para correr la aplicacion
+node dist/index
+nodemon dist/index
 
 
 ## SERVICIOS WEB
 
-## end-points de prueba
+# End-points de prueba
 localhost:3002/sispostal-one
 localhost:3002/sispostal-two
