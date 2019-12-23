@@ -1,0 +1,31 @@
+{
+  "name": "sispostal-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raschdiaz/sispostal.git"
+  },
+  "keywords": [
+    "sispostal"
+  ],
+  "author": "Hans Rasch - MayaSoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raschdiaz/sispostal/issues"
+  },
+  "homepage": "https://github.com/raschdiaz/sispostal#readme",
+  "dependencies": {
+    "@types/node": "^13.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^7.15.1",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.0"
+  }
+}
