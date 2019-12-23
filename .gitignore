@@ -2,5 +2,4 @@ node_modules
 .history
 dist
 .vscode
-src/config/config-dev.ts
 src/config/config-pro.ts
