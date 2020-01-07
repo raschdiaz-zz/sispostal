@@ -19,3 +19,13 @@ export const modelMapping = (req: any, res, next) => {
 
 };
 */
+
+export const notificarEstadoMapping = (req: any, res, next) => {
+    let body: any = req.body;
+    next();
+}
+
+export const notificarReliquidacionMapping = (req: any, res, next) => {
+    let body: any = req.body;
+    next();
+}

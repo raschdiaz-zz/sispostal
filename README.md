@@ -15,6 +15,8 @@
 # Comando para instalar las dependencias del proyecto
 npm install
 
+- Instalar JVM (Java Virtual Machine) y JDK (Java Development Kit)
+
 # Comando para compilar la aplicación, despues de haber hecho alguna mejora o ajuste al desarrollo (este comando genera el codigo que se necesita ejecutar ubicado en la carpeta /dist)
 npm run build
 
